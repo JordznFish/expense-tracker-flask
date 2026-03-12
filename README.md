@@ -56,15 +56,33 @@ This project follows the idea from
 expense-tracker-flask
 │
 ├── app
+│   │
+│   ├── __init__.py
+│   │
 │   ├── routes
-│   ├── models
+│   │   ├── auth_routes.py
+│   │   └── expense_routes.py
+│   │
 │   ├── controllers
-│   ├── utils
-│   └── __init__.py
+│   │   ├── auth_controller.py
+│   │   └── expense_controller.py
+│   │
+│   ├── models
+│   │   ├── user_model.py
+│   │   ├── category_model.py
+│   │   └── expense_model.py
+│   │
+│   └── utils
+│       ├── db.py
+│       ├── jwt_handler.py
+│       └── password_utils.py
 │
 ├── config.py
 ├── run.py
 ├── requirements.txt
+├── .env
+├── .env.example
+├── .gitignore
 └── README.md
 ```
 
