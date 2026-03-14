@@ -84,6 +84,21 @@ expense-tracker-flask
 ├── .env.example
 ├── .gitignore
 └── README.md
+
+Supplementary knowledge:
+We're using MVC (Model-View-Controller) Architecture.
+End User -> End point -> Controllers -> Model -> Controllers -> View 
+
+__init__.py: When we run app package, this file will always be executed initially. Mainly returning 'app' object
+routes folder: Where we define the routing logic (Using Blueprint class from Flask Package)
+controllers: Where all the APIs logic live, we handle the req and res operations.
+models: A folder to communicate with tables from our Database, a connection between backend and database
+utils: A utility folder that handles some useful logic or functions such as jwt or bcryting password.
+config.py: A file to load and store variables in a class from .env, so we could retrieve env variables (Personal infos)
+run.py: Where we execute our website (python run.py)
+requirements.txt: Others could run pip -r requirement to install dependencies
+.env: Personal Infos
+.env.example: Template of .env
 ```
 
 ---
