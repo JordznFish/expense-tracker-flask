@@ -1,5 +1,14 @@
 # Expense Tracker API — Flask Implementation
-Expense Tracker REST API built with Flask
+Expense Tracker REST API built with Flask  
+Progress:   
+Phase 1 — Flask App Architecture [Done]  
+Phase 2 — Configuration & Environment Variables [Done]  
+Phase 3 — Database Connection [Done]  
+Phase 4 — Database Schema [Done]  
+Phase 5 — User Authentication  
+Phase 6 — JWT Middleware  
+Phase 7 — Expense CRUD API  
+Phase 8 — Filtering & Query Features  
 
 ## Project Goals
 - Compare backend architecture between Express.js and Flask by implementing the same system in both frameworks.
